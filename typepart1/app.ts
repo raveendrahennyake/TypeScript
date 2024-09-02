@@ -1,14 +1,11 @@
 //Enum
-
 enum ProjectSturture {
     New,
     Activations,
     Finsihed,
 }
-
 const Mydetails=ProjectSturture.New;
 console.log(Mydetails);
-
 
 //Any Data Type
 
@@ -18,7 +15,6 @@ RandomValue=true;
 RandomValue="sam";
 
 console.log(RandomValue);
-
 
 //Unknow DataType
 
@@ -97,4 +93,12 @@ console.log(NewDetails.city);
 
 
 //Literal Type
+
+type grade="pass" | "fail" | "pending";
+
+let result:grade;
+
+result="fail";
+result="pass";
+result="pending";
 
